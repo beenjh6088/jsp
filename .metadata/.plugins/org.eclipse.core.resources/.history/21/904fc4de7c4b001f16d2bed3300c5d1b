@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function fn_validate() {
+		var frmLogin = document.frmLogin;
+		var user_id = frmLogin.user_id.value;
+		
+		if((user_id.length == 0 || user_id =="") || (user_pw.length ==0 || user_pw == "")) {
+			
+		}
+	}
+</script>
+</head>
+<body>
+	<form name="frmLogin" method="post" action="login5" encType="UTF-8">
+		ID : <input type="text" name="user_id"><br>
+		PW : <input type="password" name="user_pw" />
+		<input type="submit" value="login"/>
+		<input type="reset" value="reset"/>
+	</form>
+</body>
+</html>

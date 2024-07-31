@@ -1,0 +1,14 @@
+package sec01.ex01;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/input")
+public class InputServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7912859215560632913L;
+	
+}

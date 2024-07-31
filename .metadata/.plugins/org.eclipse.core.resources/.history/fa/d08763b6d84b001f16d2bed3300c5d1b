@@ -1,0 +1,9 @@
+package sec04.ex03;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/guguTest3")
+public class GuguTest3 extends HttpServlet {
+	
+}

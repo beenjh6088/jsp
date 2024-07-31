@@ -1,0 +1,9 @@
+package sec03.ex02;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/login4")
+public class LoginServlet4 extends HttpServlet {
+	
+}

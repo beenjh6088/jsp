@@ -1,0 +1,9 @@
+package sec04.ex03;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/member")
+public class MemberServlet extends HttpServlet {
+
+}

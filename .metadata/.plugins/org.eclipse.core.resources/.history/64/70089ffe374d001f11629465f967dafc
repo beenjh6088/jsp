@@ -1,0 +1,8 @@
+package sec04.ex03;
+
+public class MemberDAO {
+
+	public MemberDAO() {
+		
+	}
+}

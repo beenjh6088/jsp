@@ -1,0 +1,10 @@
+package sec05.ex01;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/cset")
+public class SetServletContext extends HttpServlet {
+
+	
+}
