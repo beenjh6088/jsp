@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 		out.print("<html><body>");
 		if(result) {
 			HttpSession session = request.getSession();
-			session.setAttribute("isLogon", true);
+			session.setAttribute("isLogin", true);
 			session.setAttribute("login.id", user_id);
 			session.setAttribute("login.pwd", user_pwd);
 			out.print("hi, "+user_id+"<br>");
