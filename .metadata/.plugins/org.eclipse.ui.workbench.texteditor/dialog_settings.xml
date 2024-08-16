@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="delMember"/>
+		<item key="selection" value="user_list"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="delMember"/>
-			<item value="frmMember"/>
-			<item value="fn_sendMember"/>
-			<item value="command"/>
-			<item value="member3"/>
-			<item value="java:/comp/env"/>
-			<item value="env"/>
-			<item value="java"/>
-			<item value="stmt"/>
-			<item value="pstmt"/>
-			<item value="guguTest3"/>
-			<item value="dan"/>
-			<item value="guguTest2"/>
-			<item value="guguTest"/>
-			<item value="admin"/>
+			<item value="user_list"/>
+			<item value="user_id"/>
+			<item value="context"/>
+			<item value="Context"/>
+			<item value="des"/>
+			<item value="loginImpl"/>
+			<item value="login"/>
+			<item value="impl"/>
+			<item value="logout"/>
+			<item value="user logOu"/>
 		</list>
 		<list key="replacehistory">
 		</list>
