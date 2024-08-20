@@ -1,9 +1,0 @@
-package sec02.ex01;
-
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-
-@WebServlet("/set")
-public class SetCookieValue extends HttpServlet {
-	
-}

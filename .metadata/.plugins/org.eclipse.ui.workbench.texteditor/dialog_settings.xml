@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="user_list"/>
+		<item key="selection" value="membersList"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="membersList"/>
+			<item value="imgName"/>
+			<item value="jdbc/oracle"/>
+			<item value="deleteCookie"/>
 			<item value="user_list"/>
 			<item value="user_id"/>
 			<item value="context"/>
 			<item value="Context"/>
-			<item value="des"/>
-			<item value="loginImpl"/>
-			<item value="login"/>
-			<item value="impl"/>
-			<item value="logout"/>
-			<item value="user logOu"/>
 		</list>
 		<list key="replacehistory">
 		</list>
