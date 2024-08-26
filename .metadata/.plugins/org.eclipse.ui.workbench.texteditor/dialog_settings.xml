@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="membersList"/>
+		<item key="selection" value="pageNum"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="membersList"/>
-			<item value="imgName"/>
-			<item value="jdbc/oracle"/>
-			<item value="deleteCookie"/>
-			<item value="user_list"/>
-			<item value="user_id"/>
-			<item value="context"/>
-			<item value="Context"/>
+			<item value="pageNum"/>
+			<item value="articlesList"/>
+			<item value="addReply"/>
+			<item value="replyForm"/>
+			<item value="modArticle"/>
+			<item value="articleForm.do"/>
+			<item value="articleForm"/>
+			<item value="fn_reply_form("/>
 		</list>
 		<list key="replacehistory">
+			<item value="board05"/>
+			<item value="board06"/>
+			<item value="board07"/>
+			<item value="?"/>
+			<item value=""/>
+			<item value="board04"/>
+			<item value="board03"/>
+			<item value="test03"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

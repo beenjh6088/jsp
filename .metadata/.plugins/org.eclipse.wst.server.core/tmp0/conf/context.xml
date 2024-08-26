@@ -38,4 +38,16 @@
 			maxActive="50"
 			maxWait="-1"
     />
+    
+    <Resource
+    	name="jdbc/oracle/bookey"
+			auth = "Container"
+			type="javax.sql.DataSource"
+			driverClassName="oracle.jdbc.OracleDriver"
+			url="jdbc:oracle:thin:@localhost:1521:XE"
+			username="BOOKEY"
+			password="tiger"
+			maxActive="50"
+			maxWait="-1"
+    />
 </Context>

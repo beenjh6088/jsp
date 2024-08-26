@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script type="text/javascript">
+		function fn_process() {
+			var _id = $("#t_id").val();
+			if(_id == '') {
+				alert("input your id");
+				return;
+			}
+			
+			$.ajax({
+				type:"post",
+				async:true,
+				url:"http://localhost:8090/pro16/mem",
+				dataType:"text",
+				data: {id: _id},
+				success: function(data, textStatus){
+					if(data == 'usable'){
+						$("#message").text("you can use it as your ID");
+						$("#btn_duplicate").prop("disable", true);
+					}else {
+						$("#message").text("it is not available for your ID");
+					}
+				}
+			})
+		}
+		
+	</script>
+</head>
+<body>
+	<input type='text' id="t_id"><br>
+	
+	<input type="button" id='btn_duplicate' value="check for id" onClick="fn_process()"><br><br>
+	<div id="message"></div>
+</body>
+</html>
